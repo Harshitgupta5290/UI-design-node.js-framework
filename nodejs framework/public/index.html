@@ -1,0 +1,58 @@
+<!-- This is an HTML document written in English language -->
+<html lang="en">
+  <head>
+    <!-- This meta tag sets the character set to UTF-8 and specifies the compatibility mode for Internet Explorer -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- This meta tag sets the initial scale and width of the viewport for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- This line links an external CSS stylesheet to the HTML document -->
+    <link rel="stylesheet" href="../public/style.css" />
+    <!-- This sets the title of the HTML document -->
+    <title>Quick Award Page </title>
+  </head>
+  <body>
+    <!-- This is a container div for the entire form -->
+    <div>
+      <!-- This is a form element with a POST method and an action attribute that sends data to "/Create_Credential" URL on submit. -->
+      <!-- onSubmit calls a function when the form is submitted, but it seems to be missing the function name -->
+      <form id="myform" method="POST" action="/Create_Credential" onSubmit="onclick">
+        <!-- This is a level 2 heading that says "Quick Award" -->
+        <h2>Quick Award</h2>
+        <!-- This is a horizontal line element -->
+        <hr/>
+        <p>
+          <!-- This is a label element with an icon of an address card that says "Name of the Awardee" -->
+          <label><i class="fa fa-address-card` -o"></i>Name of the Awardee</label>
+        </p>
+        <!-- This is a text input field that requires a value with an ID of "name1" and a name attribute of "name1" -->
+        <input
+          type="text"
+          placeholder="Your Name"
+          id="name1"
+          name="name1"
+          value=""
+          required="required"
+        />
+
+        <p>
+          <!-- This is a label element with an icon of an envelope that says "Awardee's Email" -->
+          <label><i class="fa fa-envelope-o"></i>Awardee's Email</label>
+        </p>
+        <!-- This is an email input field that requires a value with an ID of "email" and a name attribute of "email" -->
+        <input
+          type="email"
+          placeholder="Your Email"
+          id="email"
+          name="email"
+          value=""
+          required="required"
+        />
+        <!-- This is a horizontal line element -->
+        <hr />
+        <!-- This is a button element that submits the form when clicked and has a href attribute set to "#" (but it won't work as expected) -->
+        <button type="submit" href="#">Award</button>
+      </form>
+    </div>
+  </body>
+</html>

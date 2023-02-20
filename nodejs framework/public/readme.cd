@@ -1,0 +1,96 @@
+---------------------To start Node.js--------------------------------
+Install Node.js: If Node.js is not already installed on your computer, you can download and install it from the official website https://nodejs.org.
+Follow the installation instructions for your operating system.
+
+Open your terminal or command prompt: After installing Node.js, open your terminal or command prompt on your computer.
+
+You can find it in your applications folder or by searching for it in your computer's search bar.
+
+Navigate to your project directory: In your terminal or command prompt, navigate to the directory where you have your Node.js project files.
+
+Run the node command: Once you're in the project directory, type node followed by the name of the file you want to run. For example, if your file is called index.js, type node index.js and press Enter.
+
+Verify that Node.js is running: If Node.js is running correctly, you should see output in your terminal or command prompt. 
+
+If you're not seeing any output, check that your code is correct and that you're in the correct directory.
+
+
+
+(That's it! You've now started Node.js and are ready to begin building your application.)
+
+-----------------package.json ----------------------------------------------
+
+package.json is a file used in Node.js projects to specify the project's dependencies, as well as other metadata such as the project name, version, and author.
+To create a package.json file in your project, follow these steps:
+
+Open your terminal or command prompt: Open your terminal or command prompt on your computer.
+
+You can find it in your applications folder or by searching for it in your computer's search bar.
+
+Navigate to your project directory: In your terminal or command prompt, navigate to the directory where you want to create the package.json file.
+
+Run the npm init command: Once you're in the project directory, type npm init and press Enter. 
+
+This will start the process of creating a new package.json file for your project.
+
+Enter project information: You will be prompted to enter information about your project, such as the project name, version, description, author, and license.
+
+You can either enter this information manually or press Enter to accept the default values.
+
+Install project dependencies: Once the package.json file is created, you can install project dependencies by running npm install <package-name> command.
+
+This will install the specified package and save it as a dependency in your package.json file.
+
+Save the package.json file: Once you've added all the necessary dependencies, save the package.json file by pressing Ctrl + S or using the save command in your text editor.
+
+
+
+(That's it! You've now created a package.json file for your project and added dependencies to it. You can use this file to manage and install dependencies for your Node.js project.)
+
+--------------------To run the above code files, you will need to have the following installed:---------------------------
+
+Node.js and npm (Node Package Manager): 
+   This is required to install the dependencies used in the project.
+   You can download Node.js from the official website: https://nodejs.org/en/download/.
+   Once you have installed Node.js, you can install npm by running the command npm install in your terminal.
+
+Express.js: 
+   This is a Node.js web application framework used to build the backend server for the web application.
+   You can install Express.js by running the command 'npm install express' in your terminal.
+
+Body-parser: 
+   This is a Node.js middleware used to parse the request and response data in JSON format.
+   You can install Body-parser by running the command 'npm install body-parser' in your terminal.
+
+Once you have installed the above dependencies, you can run the Node.js server by running the command node server.js in your terminal. 
+You can then access the web application in your browser by navigating to http://localhost:3000/.
+
+
+
+--------------------------Repositories contained in these project------------------------------
+This repository contains three files:
+
+index.html
+style.css
+app.js
+
+
+index.html
+   This file contains the HTML markup for a Quick Award page. 
+   It includes a form that allows users to input the name and email of an awardee and submit the information.
+   The information is sent to the server via a POST request to the "/Create_Credential" route.
+
+style.css
+   This file contains the styling for the Quick Award page. 
+   It includes styles for the form, input fields, and button.
+
+app.js
+   This file contains the JavaScript code for the Quick Award page. 
+   It includes an event listener for the form submission and sends a POST request to the server with the form data when the form is submitted.
+
+-------------------How to run application----------------------------------
+To run this application
+  open the index.html file in a web browser.
+  Fill out the form and click the "Award" button to submit the form. 
+  The form data will be sent to the server via a POST request to the "/Create_Credential" route.
+

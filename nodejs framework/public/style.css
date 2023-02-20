@@ -1,0 +1,64 @@
+/* Style for the form container */
+div {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Style for the form header */
+h2 {
+  font-size: 28px;
+  text-align: center;
+  color: #444;
+}
+
+/* Style for the horizontal line element */
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Style for the label element */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+/* Style for the input fields */
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px #aaa;
+}
+
+/* Style for the submit button */
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #1b0707;
+}
